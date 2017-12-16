@@ -1,0 +1,82 @@
+inherited HauptForm_iPhone4in: THauptForm_iPhone4in
+  ClientHeight = 548
+  ClientWidth = 320
+  DesignerMasterStyle = 0
+  inherited TopToolBar: TToolBar
+    Size.Width = 320.000000000000000000
+    inherited ToolBarLabel: TLabel
+      Size.Width = 320.000000000000000000
+    end
+    inherited btnNext: TSpeedButton
+      Position.X = 276.000000000000000000
+    end
+  end
+  inherited TabControl1: TTabControl
+    Size.Width = 320.000000000000000000
+    Size.Height = 460.000000000000000000
+    inherited TabItem1: TTabItem
+      Size.Width = 11.000000000000000000
+      Size.Height = 11.000000000000000000
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+    end
+    inherited TabItem2: TTabItem
+      Size.Width = 11.000000000000000000
+      Size.Height = 11.000000000000000000
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited ListBox1: TListBox
+        Size.Width = 320.000000000000000000
+        Size.Height = 371.000000000000000000
+        Viewport.Width = 320.000000000000000000
+        Viewport.Height = 371.000000000000000000
+      end
+      inherited Button1: TButton
+        Position.X = 1492.000000000000000000
+        Size.Width = 44.000000000000000000
+        Size.Height = 44.000000000000000000
+      end
+      inherited Panel1: TPanel
+        Size.Width = 320.000000000000000000
+        inherited Edit1: TEdit
+          Size.Height = 30.000000000000000000
+          inherited EditButton1: TEditButton
+            Size.Width = 44.000000000000000000
+            Size.Height = 44.000000000000000000
+          end
+        end
+        inherited Label1: TLabel
+          Size.Width = 320.000000000000000000
+        end
+      end
+    end
+    inherited TabItem3: TTabItem
+      Size.Width = 11.000000000000000000
+      Size.Height = 11.000000000000000000
+      ExplicitSize.cx = 11.000000000000000000
+      ExplicitSize.cy = 11.000000000000000000
+    end
+  end
+  inherited BottomToolBar: TToolBar
+    Position.Y = 504.000000000000000000
+    Size.Width = 320.000000000000000000
+    inherited Button2: TButton
+      Size.Width = 44.000000000000000000
+    end
+    inherited Button3: TButton
+      Position.X = 44.000000000000000000
+    end
+    inherited Button4: TButton
+      Position.X = 256.000000000000000000
+    end
+    inherited Button5: TButton
+      Position.X = 108.000000000000000000
+      Size.Width = 44.000000000000000000
+    end
+  end
+  inherited StyleBook1: TStyleBook
+    Styles = <
+      item
+      end>
+  end
+end
